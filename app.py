@@ -2,9 +2,9 @@ import streamlit as st
 import pickle
 import string
 from PIL import Image
-#nltk.download('stopwords')
-from nltk.corpus import stopwords
 import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 def transform_text(text):

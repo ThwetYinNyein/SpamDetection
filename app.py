@@ -27,8 +27,8 @@ def transform_text(text):
         y.append(ps.stem(i))
     return " ".join(y)
 #tfidf = pickle.load(open('C:/Users/DELL/anaconda3/envs/project/vectorizer.pkl','rb'))
-tfidf=pickle.load('vectorizer.pkl','rb')
-model=pickle.load('model.pkl','rb')
+tfidf=pickle.load(open('vectorizer.pkl','rb'))
+model=pickle.load(open('model.pkl','rb'))
 #model = pickle.load(open('C:/Users/DELL/anaconda3/envs/project/model.pkl','rb'))
 
 st.title("Email/SMS Spam Detection")

@@ -4,8 +4,8 @@ import string
 from PIL import Image
 
 #nltk.download('stopwords')
-nltk.download('all')
-import nltk
+#nltk.download('all')
+#import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()

@@ -3,7 +3,6 @@ import pandas as pd
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-from sklearn.model_selection import train_test_split
 import streamlit as st
 import pickle
 import string
